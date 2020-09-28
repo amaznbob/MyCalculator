@@ -29,7 +29,7 @@ namespace MyCalculator.Tests
         {
             Calculator calculator = new Calculator();
             double hyp = calculator.triangleHypException(20, 30);
-            Assert.AreNotEqual(2000, hyp);
+            Assert.AreNotEqual(2000, hyp);  
         }
 
         [TestMethod]
