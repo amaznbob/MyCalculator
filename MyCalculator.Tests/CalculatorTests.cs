@@ -22,7 +22,6 @@ namespace MyCalculator.Tests
             Calculator calculator = new Calculator();
             double hyp = calculator.triangleHypotenuse(20, 40);
             Assert.AreEqual(2000, hyp);
-
         }
         [TestMethod]
         [TestCategory("HypotenuseException")]
