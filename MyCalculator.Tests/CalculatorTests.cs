@@ -6,23 +6,7 @@ namespace MyCalculator.Tests
     [TestClass]
     public class CalculatorTests
     {
-        [TestMethod]
-        [TestCategory("SimpleMath")]
-        public void AddSimple()
-        {
-            var calculator = new Calculator();
-            int sum = calculator.Add(1, 2);
-            Assert.AreEqual(3, sum);
-        }
-        [TestMethod]
-        [TestCategory("SimpleMath")]
-        [Priority(0)]
-        public void DivideSimple()
-        {
-            var calculator = new Calculator();
-            int quotient = calculator.Divide(10, 5);
-            Assert.AreEqual(2, quotient);
-        }
+
         [TestMethod]
         [TestCategory("Exceptions")]
         [ExpectedException(typeof(DivideByZeroException))]
