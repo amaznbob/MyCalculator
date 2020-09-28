@@ -31,7 +31,7 @@ namespace MyCalculator.Tests
             double hyp = calculator.triangleHypException(20, 30);
             Assert.AreNotEqual(2000, hyp);  
         }
-
+        
         [TestMethod]
         [TestCategory("Area")]
         public void CalcArea()
@@ -40,7 +40,7 @@ namespace MyCalculator.Tests
             double area = calculator.triangleArea(10, 40);
             Assert.AreEqual(200, area);
 
-        } 
+        }
         [TestMethod]
         [TestCategory("AreaException")]
         public void CalcAreaException()
@@ -49,7 +49,7 @@ namespace MyCalculator.Tests
             double area = calculator.triangleAreaException(10, 30);
             Assert.AreNotEqual(200, area);
 
-
+         
         }
         [TestMethod]
         [TestCategory("Angle")]
