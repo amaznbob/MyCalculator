@@ -40,7 +40,7 @@ namespace MyCalculator.Tests
             double area = calculator.triangleArea(10, 40);
             Assert.AreEqual(200, area);
 
-        }
+        } 
         [TestMethod]
         [TestCategory("AreaException")]
         public void CalcAreaException()
