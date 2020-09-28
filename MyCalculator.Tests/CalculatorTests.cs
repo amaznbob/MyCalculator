@@ -48,8 +48,6 @@ namespace MyCalculator.Tests
             Calculator calculator = new Calculator();
             double area = calculator.triangleAreaException(10, 30);
             Assert.AreNotEqual(200, area);
-
-         
         }
         [TestMethod]
         [TestCategory("Angle")]
