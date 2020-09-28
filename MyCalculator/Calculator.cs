@@ -12,14 +12,27 @@ namespace MyCalculator
         enum triangleType { scalene, isosceles, equilateral, noTriangle };
         public double triangleHypotenuse(double sideA, double sideB)
         {
-            double sideC = ((sideA * sideA) + (sideB * sideB));
-            return sideC;
+            return ((sideA * sideA) + (sideB * sideB));
+            
         }
+        public double triangleHypException(double sideA, double sideB)
+        {
+            return ((sideA * sideA) + (sideB * sideB));
+        }
+
         public double triangleArea(double height, double base_)
         {
             return (0.5) * height * base_;    //area of triangle formula
         }
+        public double triangleAreaException(double height, double base_)
+        {
+            return (0.5) * height * base_;    //area of triangle formula
+        }
         public double triangleAngle(double angle1, double angle2)
+        {
+            return 180 - angle1 - angle2;    //area of triangle formula
+        }
+        public double triangleAngleException(double angle1, double angle2)
         {
             return 180 - angle1 - angle2;    //area of triangle formula
         }
